@@ -1,0 +1,16 @@
+.review-container {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  color: #333;
+  padding: 20px;
+  background-color: white; /* White background */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  margin: 40px auto;
+}
+
+.review-container h2 {
+  color: #4CAF50; /* Green accent */
+  margin-bottom: 20px;
+}

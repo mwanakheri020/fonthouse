@@ -1,0 +1,34 @@
+.house-container {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  color: #333;
+  padding: 20px;
+  background-color: white; /* White background */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  margin: 40px auto;
+}
+
+.house-container h1 {
+  color: #4CAF50; /* Green accent */
+  margin-bottom: 20px;
+}
+
+.house-item {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px 0;
+  text-align: left;
+}
+
+.house-item h3 {
+  color: #4CAF50; /* Green accent */
+  margin-bottom: 10px;
+}
+
+.house-item p {
+  color: #555;
+}

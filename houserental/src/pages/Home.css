@@ -1,0 +1,82 @@
+/* Overall container for the Home page */
+.home-container {
+    background-color: #f9f9f9; /* Light background color */
+    padding: 40px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Heading styles for the Home page */
+  .home-container h1 {
+    font-size: 2.5rem;
+    color: #2c3e50;  /* Darker text color */
+    margin-bottom: 20px;
+  }
+  
+  /* Subtext style under the heading */
+  .home-container p {
+    font-size: 1.2rem;
+    color: #7f8c8d;  /* Soft gray text */
+    margin-bottom: 40px;
+  }
+  
+  /* Styling for the home sections (House, Booking, Review) */
+  .table table-dark mt-4 {
+    display: flex;
+    justify-content: space-around;  /* Spread out the sections */
+    gap: 20px;
+    flex-wrap: wrap;  /* Make it wrap on smaller screens */
+    margin-top: 20px;
+  }
+  
+  /* Style each section container */
+  .home-sections section {
+    width: 30%;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  /* Hover effect on sections */
+  .home-sections section:hover {
+    transform: translateY(-5px);  /* Slight upward movement on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Section title inside each component */
+  .home-sections section h2 {
+    font-size: 1.5rem;
+    color: #34495e;  /* Slightly darker for section title */
+    margin-bottom: 15px;
+  }
+  
+  /* Styling for responsive design (less than 768px) */
+  @media (max-width: 768px) {
+    .home-sections {
+      flex-direction: column;
+      align-items: center;  /* Center the sections when stacking */
+    }
+  
+    .home-sections section {
+      width: 80%;
+      margin-bottom: 20px;  /* Add some space between stacked sections */
+    }
+  }
+  
+  /* Further adjustments for very small screens (less than 480px) */
+  @media (max-width: 480px) {
+    .home-container h1 {
+      font-size: 2rem;  /* Reduce the font size for small screens */
+    }
+  
+    .home-container p {
+      font-size: 1rem;  /* Reduce paragraph size */
+    }
+  
+    .home-sections section {
+      width: 90%;  /* Make sections take up more width */
+    }
+  }
+  
